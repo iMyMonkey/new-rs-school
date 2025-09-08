@@ -1,1 +1,1 @@
-# new-rs-school
+https://iMyMonkey.github.io/new-rs-school/cv
