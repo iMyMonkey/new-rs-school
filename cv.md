@@ -19,5 +19,5 @@
 English: **_A1_**
 
 ***
-                                        
-                                        [The Rolling Scopes](https://www.youtube.com/results?search_query=rs+school)
+
+[The Rolling Scopes](https://www.youtube.com/results?search_query=rs+school)
