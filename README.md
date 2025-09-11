@@ -1,1 +1,1 @@
-https://iMyMonkey.github.io/new-rs-school/cv
+https://iMyMonkey.github.io/rsschool-cv-html
