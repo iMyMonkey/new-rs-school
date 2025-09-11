@@ -20,4 +20,4 @@ English: **_A1_**
 
 ***
                                         
-                                        [The Rolling Scopes](https://rs.school/courses/javascript-ru/)
+                                        [The Rolling Scopes](https://www.youtube.com/results?search_query=rs+school)
