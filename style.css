@@ -1,0 +1,31 @@
+.navContent {
+    display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.navContent {
+    list-style: none;
+    background-color: rgb(182, 178, 179);
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 60px;
+    transition: color 0.5s;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.nav-items:hover {
+    color: #56aa7c;
+    transition: .5s;
+}
+
+.navContent2 {
+    width: 10%;
+  height: 10%;
+}
+
+.nav-items {
+text-decoration: none;
+ color: rgb(78, 124, 106);
+}
