@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .navContent {
     display: flex;
  justify-content: flex-end;
@@ -28,4 +32,22 @@
 .nav-items {
 text-decoration: none;
  color: rgb(78, 124, 106);
+}
+
+.main-container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+section {
+width: 50%;
+}
+
+@media (max-width: 768 px) {
+    .section {
+        width: 100%;
+    }
+}
+.section-title {
+    font-size: 18px;
 }
