@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>My CV</title>
     <link rel="icon" href="assets/NicePng_cute-ghost-png_1095724.png">
 </head>
+
 <header>
     <nav>
         <ul class="navContent">
             <li class="navContent2"><a href='#contacts' class="nav-items">Contacts</a></li>
             <li class="navContent2"><a href='#skills' class="nav-items">Skills</a></li>
-            <li class="navContent2"><a href='#info' class="nav-items">About me</a></li>
+            <li class="navContent2"><a href='#about-me' class="nav-items">About me</a></li>
             <li class="navContent2"><a href='#code' class="nav-items">Code</a></li>
             <li class="navContent2"><a href='#languages' class="nav-items">Languages</a></li>
+            <li class="navContent2"><a href='#education' class="nav-items">Education</a></li>
+            <li class="navContent2"><a href='#profects' class="nav-items">Projects</a></li>
+            <li class="navContent2"><a href='#courses' class="nav-items">Courses</a></li>
         </ul>
     </header>
 <body>
     <main class="main-container">
-        <section class="section-title" id="about-me"><h1>Piatrushyn Andrei</h1>
-        Hi! My name is Andrey. I`am learning Frontend profession and English language. I dont have enough time, because i am working main time.
+
+        <section class="new-class"><img src="assets/Mario.png" alt="Super-Mario" title="old skul" style='align-items: center'>
+    </section>
+
+        <section class="section-aboutme" id="about-me"><h1>Piatrushyn Andrei</h1>
+        Hi! My name is Andrei. I`am learning Frontend profession and English language. I dont have enough time, because i am working main time.
         This year, i want to up my English to A2, and my IT skills!
         </section>
         
-        <section class="section-title" id="skills"><h2>Code</h2>
+        <section class="education" id="education"><h2>Education</h2>
+            I studied at the Svetlogorsk Industrial College. I have a secondary vocational education.
+        </section>
+
+        <section class="section-code" id="code"><h2>Code</h2>
             <code>
     function checkParent (src, dest) {<Br>
      while (src != null) {<Br>
@@ -33,7 +48,48 @@
      }<Br>
      return null<Br>
              </code>
+    </section>
+
+    <section class="skills1" id="id-skills">
+        <ul>
+            <h2>Skills</h2>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git, GitHub</li>
+    </ul>
 </section>
+   
+    <section class="courses1" id="courses">
+        <h2>Courses</h2>
+        <ul>
+            <li class="courses"><a href="https://git-scm.com/book/ru/v2/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%9E-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9" class="courses">GitHub</a></li>
+            <li class="courses"><a href="https://rs.school/courses/javascript-preschool-ru" class="courses">Roling Scopes</a></li>
+            <li class="courses"><a href="https://code-basics.com/ru" class="courses">Code Basics</a></li>
+        </ul>
+        
+    </section>
+
+    <section class="languages1" id="languages">
+            <h2>Languages:</h2>
+        <ul>   
+            <li>Endglish: A1</li>
+        </ul>
+    </section>
+    
+    <section class="contacts" id="contacts"><h2>Contacts</h2>
+        <ul>
+            <li>email: semenovich@gmail.com</li>
+            <li>tel: +375335434355</li>
+        </ul>
+    </section>
+
+<footer class="footer" id="id-footer">
+    <div class="footer1">
+        <a class="footer2" href="https://github.com/">Github</a>
+        <a class="footer2" href="https://rs.school/#about-rs-school">Roling Scopes</a>
+    </div>
+</footer>
+
     </main>
 
 </body>
